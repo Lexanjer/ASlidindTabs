@@ -26,11 +26,11 @@ public class ActivityDark extends AppCompatActivity {
 
 				
 				
-			//	ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-      //  viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager()));
+				ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager()));
 				
 				PagerSlidingTabStrip tabStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
-			//	tabStrip.setViewPager(viewPager);
+				tabStrip.setViewPager(viewPager);
 			
     }
 		
